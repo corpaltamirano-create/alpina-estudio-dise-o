@@ -1,25 +1,47 @@
 body {
   margin: 0;
-  font-family: Arial;
-  background: #111;
+  font-family: 'Helvetica Neue', Arial;
+  background: #0a0a0a;
   color: white;
-  text-align: center;
 }
 
 header {
-  background: black;
-  padding: 20px;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 3px;
 }
 
-section {
-  margin-top: 100px;
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 button {
-  padding: 12px 20px;
-  border: none;
+  padding: 12px 25px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
   background: white;
   color: black;
-  cursor: pointer;
-  font-size: 16px;
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
 }
